@@ -1,4 +1,5 @@
-# Docker as hypervisor driver for Openstack Nova Compute
+## Docker as hypervisor driver for Openstack Nova Compute
+Neependra Khare, Red Hat
 <br/>
 
 ---
@@ -94,11 +95,10 @@ container_formats = ami,ari,aki,bare,ovf,docker
 $ source openrc
 $ export OS_USERNAME=admin
 $ docker pull fedora
-$ sudo docker save fedora | glance image-create --is-public=True --container-format=docker --disk-format=raw --name fedora
+$ sudo docker save fedora | glance image-create --is-public=True \
+ --container-format=docker --disk-format=raw --name fedora
 $ glance image-list
 ```
-
-
 ---
 ## Docker plugin for heat (Openstack Orchestration)
 ![alt text](http://blog.docker.com/wp-content/uploads/2014/03/heat-nova.png "Docker plugin for heat")
@@ -106,3 +106,8 @@ $ glance image-list
 + Deploy and manage containers
 + Native Docker API
 
+---
+## References
++ https://wiki.openstack.org/wiki/Docker
++ http://www.slideshare.net/ThanassisParathyras/docker-in-openstack
++ 
