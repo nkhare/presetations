@@ -21,9 +21,6 @@ It is an open platform for developers and sysadmins to build, ship, and run dist
 ## Shipping-container-for-code 
 ![alt text](http://scm.zoomquiet.io/data/20131004215734/docker_container.jpg "Shipping-container-for-code")
 
----
-## Docker Hub
-![alt text](http://www.eweek.com/imagesvr_ce/7471/DockerFacts_4.jpg "Docker Hub")
 
 ---
 ## Kernel Feature that enables containerization 
@@ -36,12 +33,22 @@ It is an open platform for developers and sysadmins to build, ship, and run dist
 
 ---
 
+## Docker Components
++ Images
++ Containers
++ Repository
++ Registry
++ Index/DockerHub
+
+---
 ## Docker images
 ![alt text](http://xebia.github.io/docker-introduction/slides/img/docker-filesystems-busyboxrw.png "Docker images")
 
 ---
+## Docker Hub
+![alt text](http://www.eweek.com/imagesvr_ce/7471/DockerFacts_4.jpg "Docker Hub")
 
-
+---
 ## Docker Usecases
 + Quick prototyping of ideas
 + Day to Day Development
